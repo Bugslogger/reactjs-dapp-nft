@@ -1,0 +1,27 @@
+.class-header {
+  /* background-color: var(--color);
+    color: #000; */
+  border-radius: 50px;
+  box-shadow: 2px 2px 15px 1px rgba(0, 0, 0, 0.05),
+    -2px -2px 15px 1px rgba(255, 255, 255, 0.8);
+  font-size: 16px;
+}
+.class-header .class-header-list {
+  font-size: 16px;
+  letter-spacing: 1px;
+  /* border: 1px solid; */
+  margin: 0 5px;
+  cursor: pointer;
+  transition: all 0.6s ease-in-out;
+}
+
+.class-header .class-header-list:hover {
+  letter-spacing: 3px;
+}
+
+.class-header .class-header-list2{
+    background-color: var(--color);
+    border-radius: 50px;
+    color: #fff;
+    padding: 10px 15px;
+}
