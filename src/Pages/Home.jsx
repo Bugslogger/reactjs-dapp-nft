@@ -1,17 +1,18 @@
-import React from 'react'
-import Header from '../Component/Header';
+import React from "react";
+import Card from "../Component/Card";
+import Header from "../Component/Header";
 
 const Home = () => {
   return (
     <div>
-        <div className="border container-fluid header">
-            <Header/>
-        </div>
-        <div className="content">
-
-        </div>
+      <div className="container-fluid header">
+        <Header />
+      </div>
+      <div className="content">
+        <Card />
+      </div>
     </div>
-  )
-}
+  );
+};
 
 export default Home;
